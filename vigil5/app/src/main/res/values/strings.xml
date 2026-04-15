@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VIGIL-5</string>
+    <string name="orchestrator_status_title">VIGIL-5 active</string>
+    <string name="orchestrator_channel_name">VIGIL-5 Orchestrator</string>
+    <string name="orchestrator_channel_desc">Persistent status for the VIGIL-5 agent orchestrator.</string>
+
+    <string name="action_start_orchestrator">Start agents</string>
+    <string name="action_stop_orchestrator">Stop agents</string>
+    <string name="action_grant_permissions">Grant permissions</string>
+
+    <string name="agent_core">CORE</string>
+    <string name="agent_vox">VOX</string>
+    <string name="agent_lex">LEX</string>
+    <string name="agent_sage">SAGE</string>
+    <string name="agent_listings">LISTINGS</string>
+</resources>

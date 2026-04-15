@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vigil_surface_dark">#FF0A0F1C</color>
+    <color name="vigil_surface">#FF111827</color>
+    <color name="vigil_primary">#FF5EEAD4</color>
+    <color name="vigil_on_primary">#FF0A0F1C</color>
+    <color name="vigil_on_surface">#FFE5E7EB</color>
+    <color name="vigil_accent">#FF818CF8</color>
+</resources>
