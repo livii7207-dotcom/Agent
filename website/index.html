@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antique Inlaid Tray</title>
+  <style>
+    :root {
+      --bg: #12100e;
+      --panel: #1c1916;
+      --text: #ece3d4;
+      --muted: #a99a83;
+      --accent: #c9a24b;
+      --border: #2e2822;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: radial-gradient(circle at 50% -10%, #221d18, var(--bg));
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      max-width: 620px;
+      width: 100%;
+      padding: 2.5rem;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+    }
+    p.lead {
+      margin: 0 0 2rem;
+      color: var(--muted);
+      font-style: italic;
+      line-height: 1.6;
+    }
+    .thumb {
+      display: block;
+      margin: 0 auto 2rem;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    a.link {
+      display: inline-block;
+      padding: 0.85rem 1.8rem;
+      background: var(--accent);
+      color: #1a1509;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 999px;
+      letter-spacing: 0.03em;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    a.link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(201, 162, 75, 0.35);
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Antique Inlaid Tray</h1>
+    <p class="lead">
+      A hand-worked brass charger with silver-inlaid Arabic calligraphy and
+      intricate arabesque detailing, displayed on a stand.
+    </p>
+    <a href="images/tray.png" target="_blank" rel="noopener">
+      <img class="thumb" src="images/tray.png" alt="Antique brass tray with silver-inlaid Arabic calligraphy" />
+    </a>
+    <div>
+      <a class="link" href="images/tray.png" target="_blank" rel="noopener">
+        View the full image &rarr;
+      </a>
+    </div>
+    <footer>Click the image or the button to open the picture.</footer>
+  </main>
+</body>
+</html>
